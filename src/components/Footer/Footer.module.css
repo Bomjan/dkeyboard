@@ -1,0 +1,78 @@
+.footer {
+  color: var(--color5);
+  width: 100%;
+  background-color: var(--color1);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.cols {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--color1);
+}
+
+.copyRight {
+  grid-column: 1/-1;
+  text-align: center;
+  margin-top: 10px;
+  color: var(--color4);
+  background-color: var(--color1);
+  margin-bottom: 10px;
+}
+
+.title {
+  margin-top: 20px;
+  font-size: 22px;
+  letter-spacing: 2px;
+  color: var(--color4);
+  background-color: var(--color1);
+}
+
+.list {
+  display: flex;
+  gap: 10px;
+  margin: 30px auto;
+  background-color: var(--color1);
+  color: var(--color4);
+}
+.listp {
+  background-color: var(--color1);
+}
+.ul {
+  background-color: var(--color1);
+}
+
+.a {
+  text-decoration: none;
+  background-color: var(--color1);
+  color: var(--color4);
+  &:hover {
+    color: var(--color5);
+  }
+}
+
+.textarea {
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  color: var(--color5);
+  &:focus {
+    border: none;
+    outline: none;
+  }
+}
+
+.i {
+  width: 20px;
+  height: 20px;
+  &:hover {
+    color: rgb(101, 199, 77);
+  }
+}

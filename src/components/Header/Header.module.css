@@ -1,0 +1,63 @@
+:root {
+  --color1: #0d1b2a;
+  --color2: #1b263b;
+  --color3: #415a77;
+  --color4: #778da9;
+  --color5: #e0e1dd;
+
+  --font1: "Roboto";
+  --font2: "Rolling";
+}
+.header {
+  background-color: var(--color1);
+  padding: 12px 50px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logoName,
+.link {
+  color: var(--color4);
+  text-decoration: none;
+  background-color: var(--color1);
+  font-size: 22px;
+}
+.logoName {
+  font-size: 28px;
+  color: var(--color5);
+}
+.link:hover {
+  color: var(--color5);
+}
+.nav {
+  width: 500px;
+  color: var(--color5);
+  background-color: var(--color1);
+  display: flex;
+  justify-content: space-around;
+}
+.coin {
+  background-color: var(--color1);
+  width: 30px;
+  height: 30px;
+  color: rgb(196, 196, 89);
+}
+
+.coinContainer {
+  background-color: var(--color1);
+  color: var(--color5);
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.coinCount {
+  color: rgb(179, 126, 80);
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 18px;
+  user-select: none;
+  background-color: var(--color1);
+}
