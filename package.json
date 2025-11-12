@@ -13,6 +13,7 @@
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-icons": "^5.5.0",
+    "react-lazy-load-image-component": "^1.6.3",
     "react-router-dom": "^7.9.5"
   },
   "devDependencies": {
@@ -20,6 +21,7 @@
     "@types/node": "^24.10.0",
     "@types/react": "^19.2.2",
     "@types/react-dom": "^19.2.2",
+    "@types/react-lazy-load-image-component": "^1.6.4",
     "@vitejs/plugin-react": "^5.1.0",
     "eslint": "^9.39.1",
     "eslint-plugin-react-hooks": "^5.2.0",

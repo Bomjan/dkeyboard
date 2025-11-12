@@ -68,7 +68,7 @@ export default function RegisterForm({ switchForm }: registerFormProps) {
         <p className={style.loginInstead}>
           Haven't signed up yet?{" "}
           <span className={style.login} onClick={switchForm}>
-            Register Now
+            Login Now
           </span>
         </p>
         <RegisterBtn />
