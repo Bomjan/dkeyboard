@@ -1,29 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
 .container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 12px;
+  width: 500px;
+  /* height: 300px; */
+  /* border: 1px solid red; */
+  border-radius: 20px;
+  padding: 12px 0;
+  margin: 12px auto;
+  font-family: "Roboto", sans-serif;
 }
-
+.container form {
+  display: flex;
+  flex-direction: column;
+}
 .field {
+  position: relative;
   margin: 12px;
 }
 
 .input {
   border: 1px solid var(--color4);
   outline: none;
-  padding: 8px 12px;
+  padding: 12px 16px;
   width: 300px;
   border-radius: 8px;
+  color: var(--color4);
 }
 
 .label {
-  position: relative;
-  left: -300px;
+  position: absolute;
+  top: 8px;
+  left: 12px;
   color: var(--color5);
+  transition: 0.3s;
+  pointer-events: none;
+  padding: 1px 4px;
 }
 
-.input:hover ~ .label,
-.input:has(:placeholder-shown) ~ .label {
-  transform: scale(2);
-  color: brown;
+.input:focus + .label,
+.input:not(:placeholder-shown) + .label {
+  transform: translateY(-15px);
+  font-size: 12px;
+  color: rgb(33, 143, 6);
+}
+
+.title {
+  color: var(--color5);
+  letter-spacing: 3px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.registerInstead {
+  color: var(--color4);
+  text-align: center;
+  user-select: none;
+  &:hover {
+    color: var(--color5);
+  }
+}
+
+.register {
+  font-weight: bold;
+  cursor: pointer;
 }
