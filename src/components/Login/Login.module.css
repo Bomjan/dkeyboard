@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.field {
+  margin: 12px;
+}
+
+.input {
+  border: 1px solid var(--color4);
+  outline: none;
+  padding: 8px 12px;
+  width: 300px;
+  border-radius: 8px;
+}
+
+.label {
+  position: relative;
+  left: -300px;
+  color: var(--color5);
+}
+
+.input:hover ~ .label,
+.input:has(:placeholder-shown) ~ .label {
+  transform: scale(2);
+  color: brown;
+}

@@ -1,3 +1,11 @@
+import style from "./Form.module.css";
+import Login from "../../components/Login/Login";
 export default function Form() {
-  return <h1>This is Form</h1>;
+  return (
+    <main className={style.main}>
+      <div className={style.container}>
+        <Login />
+      </div>
+    </main>
+  );
 }
