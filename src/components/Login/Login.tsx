@@ -9,10 +9,12 @@ export default function LoginForm({ switchForm }: loginFormProps) {
   const [contact, setContact] = useState("");
   const [password, setPassword] = useState("");
 
+  // TODO Apply login logic
   const handleLogin = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     console.log({ contact, password });
   };
+
   return (
     <div className={style.container}>
       <h2 className={style.title}>Login</h2>

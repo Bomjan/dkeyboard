@@ -1,0 +1,21 @@
+.getStarted {
+  transform: translateX(800px) translateY(-30vh);
+  padding: 30px 100px;
+  border-radius: 10px;
+  border: none;
+  background-color: #07679f;
+  font-size: 20px;
+  &:hover {
+    background-color: #177c69;
+  }
+}
+
+.goBack {
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  color: rgb(110, 98, 85);
+  position: absolute;
+  top: 70px;
+  left: 20px;
+}

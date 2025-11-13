@@ -1,0 +1,20 @@
+.resumed,
+.pause {
+  /* background-color: transparent; */
+  background-color: #68dd64;
+  padding: 4px 8px;
+  user-select: none;
+  min-width: 100px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+.resumed {
+  background-color: #c4965e;
+}
+.icon {
+  background-color: transparent;
+  width: 20px;
+  height: 20px;
+  color: rgb(8, 93, 93);
+}

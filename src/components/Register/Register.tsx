@@ -19,7 +19,7 @@ export default function RegisterForm({ switchForm }: registerFormProps) {
       return;
     }
 
-    // proceed with form submission logic
+    // TODO Apply the registration logic
   };
 
   return (
