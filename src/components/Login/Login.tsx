@@ -33,7 +33,7 @@ export default function LoginForm({ switchForm }: loginFormProps) {
         </div>
         <div className={style.field}>
           <input
-            type="text"
+            type="password"
             placeholder=""
             id="password"
             className={style.input}

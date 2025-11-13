@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <main className={style.main}>
       {isTyping ? (
-        <div>
+        <div className={style.holder}>
           <Welcome />
           <button onClick={() => toggle()} className={style.getStarted}>
             Get Started

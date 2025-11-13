@@ -1,5 +1,6 @@
 .getStarted {
-  transform: translateX(800px) translateY(-30vh);
+  margin: 0 auto;
+  transform: translateY(-33vh);
   padding: 30px 100px;
   border-radius: 10px;
   border: none;
@@ -8,6 +9,12 @@
   &:hover {
     background-color: #177c69;
   }
+}
+
+.holder {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .goBack {
