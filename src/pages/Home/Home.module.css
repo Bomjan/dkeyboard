@@ -14,8 +14,11 @@
   width: 50px;
   height: 50px;
   background-color: transparent;
-  color: rgb(110, 98, 85);
+  color: rgb(217, 205, 183);
   position: absolute;
   top: 70px;
   left: 20px;
+  &:hover {
+    color: rgb(46, 22, 22);
+  }
 }
